@@ -1,0 +1,98 @@
+.sidebar {
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background: #19B5FE;
+}
+
+.sidebar img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background: white;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+
+.sidebar h4 {
+    text-transform: uppercase;
+    color: #0D5B80;
+}
+
+.sidebar ul {
+    width: 100%;
+    list-style: none;
+}
+
+.sidebar ul li .link{
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    color: #19B5FE;
+    background: white;
+}
+
+.sidebar ul li:hover .link {
+    color: #19B5FE;
+}
+
+.option .car div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option .car div + div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-justify: center;
+    border-radius: 100%;
+    color: white;
+    background: red;
+}
+.add-adress form {
+    width: 100%;
+}
+
+.add-adress form input {
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.add-adress form button {
+    height: 40px;
+    background: white;
+    border-radius: 8px;
+    color: #19B5FE;
+    border: none;
+    margin-top: 20px;
+    margin: 15px 0px 0px 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+

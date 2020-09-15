@@ -1,0 +1,125 @@
+.add-prato{
+    position: absolute;
+    top: 100px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #19b5fe, #87d9ff);
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.add-prato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    width: 700px;
+}
+
+.add-prato #add input {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.add-prato form input:first-child {
+    margin: 0;
+}
+
+.add-prato form input:nth-last-child(2) {
+    margin-bottom: 20px;
+}
+
+.add-prato form button {
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #19b5fe;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.add-prato #add button:hover {
+    background: green;
+    color: white;
+}
+
+.add-prato .div {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.add-prato div {
+    width: 80%;
+}
+
+.add-prato .x {
+    align-self: flex-end;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.add-prato .x:hover {
+    color: red;
+}
+
+
+.add-prato #add input[type="file"] {
+
+    background: none;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    color: white;
+    
+
+}
+
+
+.add-prato #add input[type="file"]::-webkit-file-upload-button {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #19b5fe;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.add-prato #add input[type="file"]::-webkit-file-upload-button:hover {
+
+    background: #e8f8ff;
+}
+
+.add-prato #add input[type="file"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.add-prato #add input[type="file"]::-webkit-outer-spin-button{
+    display: initial;
+}
+
